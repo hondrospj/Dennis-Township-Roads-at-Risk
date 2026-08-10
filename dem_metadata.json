@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Dennis Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Dennis Township boundary, adaptively resampled to 18.6 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 5.678193446470818,
+  "pixelSizeFeet": 18.629243590709006,
+  "adaptiveResolution": true,
+  "width": 3858,
+  "height": 4148,
+  "nodata": -999999,
+  "minMeters": -1.143,
+  "maxMeters": 20.85,
+  "meanMeters": 5.672,
+  "stdDevMeters": 4.227,
+  "minFeet": -3.7499999999850004,
+  "maxFeet": 68.40551181075001,
+  "webMercatorBounds": [
+    -8340764.331249,
+    4742390.504943039,
+    -8318857.860932515,
+    4765943.651359
+  ],
+  "leafletBounds": [
+    [
+      39.1444989,
+      -74.9263608
+    ],
+    [
+      39.3083976,
+      -74.7296043
+    ]
+  ],
+  "files": {
+    "demCog": "dennis_township_dem_5ft_cog.tif",
+    "hillshadeCog": "dennis_township_hillshade_cog.tif",
+    "hillshadePng": "dennis_township_hillshade.png",
+    "boundaryGeojson": "dennis_township_boundary.geojson"
+  }
+}
